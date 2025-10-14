@@ -390,10 +390,10 @@ export const projects: Project[] = [
   },
      {
     id: '20',
-    title: 'Multilingual LLM Chatbot for Customer Support',
-    description: 'Created a real-time multilingual LLM chatbot capable of handling support queries in 15+ languages with sentiment-aware response tuning.',
-    image: '/AI_Portfolio/llm/l5.png',
-    technologies: 'Python 3.8, PyTorch, MarianMT, Redis, FastAPI, Kubernetes',
+    title: 'RAG-Based Enterprise Knowledge Assistant',
+    description: 'Built a context-aware RAG assistant to answer internal employee queries by grounding LLM responses in enterprise documents, policies, and knowledge bases.',
+    image: '/AI_Portfolio/llm/l4.png',
+    technologies: 'Python 3.9, PyTorch, Hugging Face Transformers, LangChain, FAISS, Pinecone, FastAPI, Docker',
     // github: 'https://github.com/example/wix-website',
     // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
     featured: false,
@@ -403,7 +403,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
       {
-    id: '20',
+    id: '21',
     title: 'LLM-based Content Generation Engine',
     description: 'Engineered a scalable content generation pipeline for SEO blogs, product descriptions, and brand copy using GPT-J and T5 models.',
     image: '/AI_Portfolio/llm/l6.png',

@@ -373,6 +373,48 @@ export const projects: Project[] = [
     categoryId: '5', // Reinforcement Learning
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
+  },
+   {
+    id: '19',
+    title: 'Multilingual LLM Chatbot for Customer Support',
+    description: 'Created a real-time multilingual LLM chatbot capable of handling support queries in 15+ languages with sentiment-aware response tuning.',
+    image: '/AI_Portfolio/llm/l5.png',
+    technologies: 'Python 3.8, PyTorch, MarianMT, Redis, FastAPI, Kubernetes',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+     {
+    id: '20',
+    title: 'Multilingual LLM Chatbot for Customer Support',
+    description: 'Created a real-time multilingual LLM chatbot capable of handling support queries in 15+ languages with sentiment-aware response tuning.',
+    image: '/AI_Portfolio/llm/l5.png',
+    technologies: 'Python 3.8, PyTorch, MarianMT, Redis, FastAPI, Kubernetes',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+      {
+    id: '20',
+    title: 'LLM-based Content Generation Engine',
+    description: 'Engineered a scalable content generation pipeline for SEO blogs, product descriptions, and brand copy using GPT-J and T5 models.',
+    image: '/AI_Portfolio/llm/l6.png',
+    technologies: 'Python 3.8, Hugging Face Transformers, GPT-J, T5, Gradio, Docker',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
   }
 ]
 

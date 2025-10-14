@@ -127,7 +127,7 @@ export const projects: Project[] = [
     title: 'Historical Blueprints & Engineering Drawing Digitizer',
     description: 'This custom OCR system is designed to digitize and extract critical information from old, faded, or sepia-toned engineering drawings and blueprints. It accurately identifies and extracts handwritten annotations, dimensions, component labels, and revision numbers, converting them into searchable, structured digital data. This preserves valuable historical information, prevents loss due to physical degradation, and enables efficient search and integration with modern CAD/PLM systems.',
     image: '/AI_Portfolio/dl/dl-1.png',
-    technologies: 'Azure VMs, PyTorch, PostgreSQL, TensorFlow, PyTorch, PaddleOCR, Tesseract OCR, Streamlit, Python, OpenCV, Scikit-image, FastAPI, Trasnfer Learning, Object Detection, Image Classification',
+    technologies: 'Azure VMs, PyTorch, PostgreSQL, TensorFlow, PaddleOCR, Tesseract OCR, Streamlit, Python, OpenCV, Scikit-image, FastAPI, Trasnfer Learning, Object Detection, Image Classification',
     // github: 'https://github.com/example/ecommerce',
     // demo: 'https://ecommerce-demo.vercel.app',
     featured: false,

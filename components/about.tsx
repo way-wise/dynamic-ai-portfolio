@@ -8,31 +8,23 @@ export function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-800">About Me</h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Passionate about creating digital experiences that make a difference
+            Passionate about creating AI-driven solutions that solve complex, real-world problems.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6 text-lg leading-relaxed text-gray-700">
             <p>
-              I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful
-              design with robust engineering. My favorite work lies at the intersection of design and development,
-              creating experiences that not only look great but are meticulously built for performance and usability.
+              I am a Deep Learning Engineer passionate about translating theoretical models into high-impact, deployed solutions. My favorite work lies at the intersection of cutting-edge research such as Multi-Modal AI and Reinforcement Learning and robust MLOps, creating systems that are not only algorithmically powerful but are also meticulously engineered for scalability and performance.
             </p>
             <p>
-              Currently, I'm a Senior Full-Stack Engineer specializing in modern web technologies. I contribute to the
-              creation and maintenance of scalable applications, ensuring our platform meets web accessibility standards
-              and best practices to deliver an inclusive user experience.
+              Currently, I am a Principal AI/ML Specialist specializing in architecting and deploying end-to-end machine learning pipelines. I contribute to the design and maintenance of scalable AI applications, ensuring our models adhere to best practices in AI Ethics and are optimized for both cloud and Edge AI environments to deliver powerful, inclusive insights.
             </p>
             <p>
-              In the past, I've had the opportunity to develop software across a variety of settings — from advertising
-              agencies and large corporations to start-ups and small digital product studios. Additionally, I also
-              released a comprehensive video course a few years ago, guiding learners through building a web app with
-              modern frameworks.
+              In the past, I've had the opportunity to develop complex predictive and automation software across a variety of settings from large Fortune 500 corporations and financial institutions to innovative deep-tech start-ups. Additionally, I have been an advocate for knowledge sharing, having previously mentored junior engineers and contributed to the field through publications on Time Series Analysis and Knowledge Distillation.
             </p>
             <p>
-              In my spare time, I'm usually reading, exploring new technologies, or working on side projects that push my
-              skills forward.
+              In my spare time, I am usually reading research papers, exploring new algorithms like those in Quantum Machine Learning, or working on side projects that advance my skills in Federated Learning and AI-Driven Automation.
             </p>
           </div>
 

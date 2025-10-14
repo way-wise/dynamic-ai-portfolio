@@ -415,7 +415,22 @@ export const projects: Project[] = [
     categoryId: '3', // Multi-Modal Learning
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
+  },
+  {
+    id: '22',
+    title: 'SmartLegalBot – AI Legal Assistant for Contract Review',
+    description: 'Engineered a scalable content generation pipeline for SEO blogs, product descriptions, and brand copy using GPT-J and T5 models.',
+    image: '/AI_Portfolio/llm/l6.png',
+    technologies: 'Python 3.8, Hugging Face Transformers, GPT-J, T5, Gradio, Docker',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
   }
+  
 ]
 
 // Helper functions to get data

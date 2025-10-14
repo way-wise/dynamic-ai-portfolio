@@ -15,8 +15,8 @@ const experiences = [
   {
     period: "2022 — 2024",
     title: "Principal AI/ML Specialist and Deep Learning Engineer",
-    company: "TechCorp",
-    link: "https://techcorp.com",
+    company: "GlobalTech Solutions",
+    // link: "https://techcorp.com",
     description:
       "Leading the design and deployment of scalable AI/ML solutions across various industries. Specializing in Multi-Modal AI, Time Series forecasting, and Edge AI applications. Driving innovation in AI Ethics and AI-Driven Automation.",
     technologies: ["Python", "TensorFlow", "PyTorch", "Kubernetes", "Azure", "AWS", "Edge AI", "MLOps"],
@@ -24,8 +24,8 @@ const experiences = [
   {
     period: "2020 — 2022",
     title: "Senior Full Stack AI Engineer",
-    company: "StartupXYZ",
-    link: "https://startupxyz.com",
+    company: "Streamline Technologies",
+    // link: "https://startupxyz.com",
     description:
       "Developed end-to-end AI-powered web applications, integrating advanced machine learning models into user-friendly interfaces. Focused on building robust, scalable systems using modern web technologies and cloud services.",
     technologies: ["Streamlit", "FastAPI", "Docker", "Azure", "PostgreSQL", "AI/ML Integration"],
@@ -33,8 +33,8 @@ const experiences = [
   {
     period: "2018 — 2020",
     title: "Mid Level ML Engineer",
-    company: "Digital Agency",
-    link: "https://digitalagency.com",
+    company: "PureTech Systems",
+    // link: "https://digitalagency.com",
     description:
       "Implemented machine learning models for client projects, focusing on predictive analytics and automation. Collaborated closely with cross-functional teams to deliver data-driven solutions that enhance business processes.",
     technologies: ["Scikit-Learn", "NumPy", "YOLO", "NLTK", "Django", "Streamlit", "Azure", "CI/CD"],
@@ -42,8 +42,8 @@ const experiences = [
   {
     period: "2016 — 2018",
     title: "ML Research Engineer",
-    company: "TechCorp",
-    link: "https://techcorp.com",
+    company: "Coherent Solutions",
+    // link: "https://techcorp.com",
     description:
       "Conducted research, development, integration and optimization of machine learning algorithms, contributed to several indutrial AI research Projects. Focused on time series analysis, reinforcement learning, and the application of deep learning techniques to real-world problems.",
     technologies: ["Scikit-Learn", "NumPy", "YOLO", "NLTK", "Django", "Streamlit", "Azure", "CI/CD"],

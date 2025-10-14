@@ -10,6 +10,7 @@ import { projects, categories, Project, Category } from "@/lib/data"
 export function Projects() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [searchTerm, setSearchTerm] = useState('')
+  const [viewActiveProject, setViewActiveProject] = useState<Project | null>(null)
 
   // Get published projects from static data
   const publishedProjects = projects.filter(project => project.published)

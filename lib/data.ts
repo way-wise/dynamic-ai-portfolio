@@ -418,10 +418,10 @@ export const projects: Project[] = [
   },
   {
     id: '22',
-    title: 'SmartLegalBot – AI Legal Assistant for Contract Review',
-    description: 'Engineered a scalable content generation pipeline for SEO blogs, product descriptions, and brand copy using GPT-J and T5 models.',
-    image: '/AI_Portfolio/llm/l6.png',
-    technologies: 'Python 3.8, Hugging Face Transformers, GPT-J, T5, Gradio, Docker',
+    title: 'SmartLegalBot - AI Legal Assistant for Contract Review',
+    description: 'SmartLegalBot is an AI-powered assistant that helps users review legal contracts, highlight risky clauses, suggest simplified rewrites, and answer basic legal queries, all using a fine-tuned LLM trained on legal documents.',
+    image: '/AI_Portfolio/ai/llm.png',
+    technologies: 'Node.js, Hugging Face Transformers, PostgreSQL',
     // github: 'https://github.com/example/wix-website',
     // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
     featured: false,
@@ -429,8 +429,105 @@ export const projects: Project[] = [
     categoryId: '3', // Multi-Modal Learning
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
-  }
-  
+  },
+    {
+    id: '23',
+    title: 'Custom LLM Development',
+    description: 'Developed a custom large language model from scratch, optimized for enterprise applications. The model was trained on domain-specific data and fine-tuned for various business use cases, achieving state-of-the-art performance while maintaining efficiency.',
+    image: '/AI_Portfolio/ai/llm1.png',
+    technologies: 'Python 3.8+, PyTorch, DeepSpeed, PEFT, LoRA, FastAPI, Docker, NVIDIA A100 GPUs',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+      {
+    id: '24',
+    title: 'LLM Fine-tuning Framework',
+    description: 'Created a comprehensive framework for fine-tuning large language models efficiently. The framework supports various fine-tuning methods, including LoRA, PEFT, and full fine-tuning, with automated optimization and monitoring capabilities.',
+    image: '/AI_Portfolio/ai/llm2.png',
+    technologies: 'Python 3.8+, PyTorch, Transformers, DeepSpeed, PEFT, LoRA, FastAPI, Docker, AWS',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+      {
+    id: '25',
+    title: 'Autonomous Research Agent using LLMs',
+    description: 'Developed an autonomous LLM agent for literature reviews with semantic paper search, PDF summarization, and research graph generation.',
+    image: '/AI_Portfolio/llm/l7.png',
+    technologies: 'Python 3.10, LangChain, Transformers, PyMuPDF, Neo4j',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+    {
+    id: '26',
+    title: 'LLM-Powered Code Generation & Review Assistant',
+    description: 'Built an AI coding assistant that generates boilerplate code, reviews PRs, and flags anti-patterns with LLM-powered insights.',
+    image: '/AI_Portfolio/llm/l3.png',
+    technologies: 'Python 3.10, CodeLLaMA, GitHub API, FastAPI, Docker',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+      {
+    id: '27',
+    title: 'LLM-Powered Code Generation & Review Assistant',
+    description: 'Built an AI coding assistant that generates boilerplate code, reviews PRs, and flags anti-patterns with LLM-powered insights.',
+    image: '/AI_Portfolio/llm/l3.png',
+    technologies: 'Python 3.10, CodeLLaMA, GitHub API, FastAPI, Docker',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+   {
+    id: '28',
+    title: 'Quantum-Enhanced Financial Risk Modeling',
+    description: 'Developing a hybrid quantum-classical model to enhance the accuracy and speed of financial risk calculations such as value at risk, portfolio optimization by using quantum circuits for complex, high-dimensional probability distributions.',
+    image: '/AI_Portfolio/qml/qml-1.png',
+    technologies: 'Qiskit, Cirq, Pennylane, TensorFlow Quantum, D-Wave',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '9', // Quantum Machine Learning (QML)
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+  {
+    id: '29',
+    title: 'Quantum Circuit Optimization for Drug Discovery',
+    description: 'Implementing QML algorithms to simulate molecular interactions and optimize the design of novel drug compounds, significantly reducing the computational time compared to classical methods for small molecules.',
+    image: '/AI_Portfolio/qml/qml-2.png',
+    technologies: 'PyQuil, NumPy, scikit-learn, Quantum Chemistry Libraries Quantum, Quantum Cloud Services',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '9', // Quantum Machine Learning (QML)
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
 ]
 
 // Helper functions to get data

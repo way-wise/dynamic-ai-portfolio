@@ -37,21 +37,23 @@ export function Hero() {
               <h1 className="text-4xl text-white sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance" data-aos="fade-up" data-aos-delay="200">
                 Hi, I'm{" "}
                 <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
-                  Firoz Bari
+                  Mr. Firoz Bari
                 </span>
               </h1>
               
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white" data-aos="fade-up" data-aos-delay="300">
                 <TypingAnimation 
                   words={[
-                    "Full-Stack Developer",
-                    "JavaScript Developer", 
-                    "AI/ML Expert",
-                    "React Specialist",
-                    "Node.js Developer",
-                    "Python Developer",
-                    "Mobile App Developer",
-                    "Cloud Architect"
+                    "Deep Learning Engineer",
+                    "Time Series Analyst", 
+                    "Multi-Modal AI Specialist",
+                    "Knowledge Distillation Expert",
+                    "Reinforcement Learning Researcher",
+                    "Federated Learning Advocate",
+                    "Quantum Machine Learning Enthusiast",
+                    "Edge AI Developer",
+                    "AI Ethics Champion",
+                    "AI-Driven Automation Specialist"
                   ]}
                   className="bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent"
                 />

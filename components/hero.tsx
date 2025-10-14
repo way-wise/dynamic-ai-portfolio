@@ -44,6 +44,7 @@ export function Hero() {
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white" data-aos="fade-up" data-aos-delay="300">
                 <TypingAnimation 
                   words={[
+                    "CEO & Founder of Way-Wise Tech",
                     "Deep Learning Engineer",
                     "Time Series Analyst", 
                     "Multi-Modal AI Specialist",
@@ -53,7 +54,12 @@ export function Hero() {
                     "Quantum Machine Learning Enthusiast",
                     "Edge AI Developer",
                     "AI Ethics Champion",
-                    "AI-Driven Automation Specialist"
+                    "AI-Driven Automation Specialist",
+                    "Multimedia AI Innovator",
+                    "AI in Healthcare Researcher",
+                    "AI for Social Good Advocate",
+                    "AI in Finance Specialist",
+                    "AI in Cybersecurity Expert"
                   ]}
                   className="bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent"
                 />

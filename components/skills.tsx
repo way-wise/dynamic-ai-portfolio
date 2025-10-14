@@ -3,34 +3,59 @@ import { Code2, Database, Layout, Server, Smartphone, Wrench } from "lucide-reac
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Deep Learning",
     icon: Layout,
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "HTML/CSS"],
+    skills: ["CNNs", "RNNs", "LSTMs", "Transformers", "GANs", "Autoencoders", "DBNs", "Ultralytics"],
   },
   {
-    title: "Backend",
+    title: "Time Series Analysis and Forecasting",
     icon: Server,
-    skills: ["Node.js", "Express", "Python", "REST APIs", "GraphQL", "Microservices"],
+    skills: ["ARIMA", "SARIMA", "ETS", "Prophet", "GRU", "Informer", "PatchTST", "XGBoost", "SVR"],
   },
   {
-    title: "Database",
+    title: "Multi-Modal Learning",
     icon: Database,
-    skills: ["PostgreSQL", "MongoDB", "Redis", "Prisma", "MySQL", "Supabase"],
+    skills: ["BLIP", "Gato", "Gemini", "Flamingo", "DALL·E", "CLIP", "PaLI", "VideoGPT"],
   },
   {
-    title: "Languages",
+    title: "Knowledge Distillation",
     icon: Code2,
-    skills: ["JavaScript", "TypeScript", "Python", "SQL", "HTML", "CSS"],
+    skills: ["DistilBERT", "TinyBERT", "Patient Knowledge Distillation", "Attention Transfer", "FitNets", "Hinton's Original KD", "Data-Free KD", "MobileNet + KD"],
   },
   {
-    title: "Mobile",
+    title: "Reinforcement Learning",
     icon: Smartphone,
-    skills: ["React Native", "Responsive Design", "PWA", "Mobile-First", "iOS", "Android"],
+    skills: ["Value-Based Methods: Q-Learning, SARSA, Deep Q-Networks (DQN)", "Policy-Based Methods: REINFORCE, Proximal Policy Optimization (PPO), Trust Region Policy Optimization (TRPO)", "Actor-Critic Methods (Hybrid): Asynchronous Advantage Actor-Critic (A3C), Deep Deterministic Policy Gradient (DDPG), Soft Actor-Critic (SAC)","Model-Based Methods: Dyna, Monte Carlo Tree Search"],
   },
   {
-    title: "Tools & Others",
+    title: "Federated Learning",
     icon: Wrench,
-    skills: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack"],
+    skills: ["Federated Averaging (FedAvg)", "Federated Stochastic Gradient Descent (FedSGD)", "FedProx", "FedMA", "FedDyn", "FedOpt", "MOON", "Secure Aggregation", "Differential Privacy", "Personalized Federated Learning", "Hierarchical Federated Learning"],
+  },
+  {
+    title: "Multimedia AI",
+    icon: Wrench,
+    skills: ["Vidnoz", "Latent Sync", "Wav2Lip", "Make-A-Video (Meta)", "Fish Speech V1.5", "CosyVoice2-0.5B", "IndexTTS-2", "Llasa-3B"],
+  },
+  {
+    title: "Multimedia AI",
+    icon: Wrench,
+    skills: ["Vidnoz", "Latent Sync", "Wav2Lip", "Make-A-Video (Meta)", "Fish Speech V1.5", "CosyVoice2-0.5B", "IndexTTS-2", "Llasa-3B"],
+  },
+  {
+    title: "Machine Learning Operations (MLOps)",
+    icon: Wrench,
+    skills: ["Azure DevOps", "Azure Pipelines", "mlflow", "Kubeflow", "TensorFlow Extended (TFX)", "Docker", "BentoML", "Kubernetes", "CI/CD Pipelines", "lakeFS", "Model Monitoring", "Data Versioning", "GCP", "AWS"],
+  },
+  {
+    title: "Quantum Machine Learning (QML)",
+    icon: Wrench,
+    skills: ["Quantum Kernel Methods", "Variational Quantum Classifiers (VQC)", "Quantum GANs (QGANs)", "Quantum Boltzmann Machines", "Qiskit (IBM)", "APennyLane (Xanadu)", "TensorFlow Quantum", "Cirq (Google)", "PyQuil (Rigetti)"],
+  },
+  {
+    title: "Edge AI",
+    icon: Wrench,
+    skills: ["TensorFlow Lite", "ONNX Runtime", "NVIDIA TensorRT", "OpenVINO Toolkit"],
   },
 ]
 

@@ -84,8 +84,8 @@ export const categories: Category[] = [
   },
   {
     id: '7',
-    name: 'Voice Cloning and Lip Sync',
-    description: 'Voice cloning and lip sync technologies for creating realistic voice and facial animations for various applications including virtual assistants, gaming, entertainment, and more.',
+    name: 'Multimedia AI',
+    description: 'Multimedia AI techniques for processing and analyzing various types of media data including images, videos, audio, and text.',
     color: '#EC4899', // Pink
     icon: '🤖',
     createdAt: '2024-01-01T00:00:00Z',

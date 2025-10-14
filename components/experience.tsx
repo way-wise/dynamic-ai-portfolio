@@ -5,6 +5,15 @@ import { ExternalLink } from "lucide-react"
 const experiences = [
   {
     period: "2024 — Present",
+    title: "CEO & Founder of Way-Wise Tech",
+    company: "Way-Wise Tech",
+    link: "https://waywisetech.com/",
+    description:
+      "Founded Way-Wise Tech to innovate at the intersection of AI and real-world applications. Leading a team to develop cutting-edge AI solutions that drive efficiency and transformation across various industries.",
+    technologies: ["Client Relations", "Business Development", "AI Strategy", "Project Management", "Leadership"],
+  },
+  {
+    period: "2022 — 2024",
     title: "Principal AI/ML Specialist and Deep Learning Engineer",
     company: "TechCorp",
     link: "https://techcorp.com",
@@ -13,7 +22,7 @@ const experiences = [
     technologies: ["Python", "TensorFlow", "PyTorch", "Kubernetes", "Azure", "AWS", "Edge AI", "MLOps"],
   },
   {
-    period: "2022 — 2024",
+    period: "2020 — 2022",
     title: "Senior Full Stack AI Engineer",
     company: "StartupXYZ",
     link: "https://startupxyz.com",
@@ -22,7 +31,7 @@ const experiences = [
     technologies: ["Streamlit", "FastAPI", "Docker", "Azure", "PostgreSQL", "AI/ML Integration"],
   },
   {
-    period: "2020 — 2022",
+    period: "2018 — 2020",
     title: "Mid Level ML Engineer",
     company: "Digital Agency",
     link: "https://digitalagency.com",
@@ -31,7 +40,7 @@ const experiences = [
     technologies: ["Scikit-Learn", "NumPy", "YOLO", "NLTK", "Django", "Streamlit", "Azure", "CI/CD"],
   },
   {
-    period: "2018 — 2020",
+    period: "2016 — 2018",
     title: "ML Research Engineer",
     company: "TechCorp",
     link: "https://techcorp.com",

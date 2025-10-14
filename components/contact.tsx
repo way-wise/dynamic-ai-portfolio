@@ -60,7 +60,7 @@ export function Contact() {
                   <div>
                     <p className="text-sm text-gray-700 font-medium">Email</p>
                     <a href="mailto:hello@example.com" className="text-lg font-semibold text-black hover:text-blue-500 transition-colors">
-                      hello@example.com
+                      firoz@waywise.pro
                     </a>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ export function Contact() {
                   <div>
                     <p className="text-sm text-gray-700 font-medium">Phone</p>
                     <a href="tel:+1234567890" className="text-lg font-semibold text-black hover:text-purple-500 transition-colors">
-                      +1 (234) 567-890
+                      +1 (310) 528-6170
                     </a>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-700 font-medium">Location</p>
-                    <p className="text-lg font-semibold text-black">San Francisco, CA</p>
+                    <p className="text-lg font-semibold text-black">Santa Clarita, CA 91351, USA</p>
                   </div>
                 </div>
               </Card>

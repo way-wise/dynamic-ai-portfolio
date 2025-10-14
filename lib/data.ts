@@ -166,15 +166,15 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'CMS Admin Panel',
-    description: 'A content management system with a modern admin interface. Allows users to create, edit, and manage content with a user-friendly dashboard. Features include WYSIWYG editor, media library, and role-based permissions.',
-    image: '/cms-admin-panel-interface.jpg',
-    technologies: 'React, Node.js, MongoDB, Express, Quill.js, JWT',
-    github: 'https://github.com/example/cms-admin',
-    demo: 'https://cms-demo.vercel.app',
+    title: 'Predictive Maintenance Platform',
+    description: 'Uses time series sensor data from critical machines to forecast RUL.',
+    image: '/AI_Portfolio/time-series/time-series-3.jpeg',
+    technologies: 'Python 3.10, Pandas, Scikit-learn, MLflow, LSTMs, GRUs, TensorFlow, PyTorch, Gradient Boosting, Grafana, Django, React, Amazon S3',
+    // github: 'https://github.com/example/cms-admin',
+    // demo: 'https://cms-demo.vercel.app',
     featured: false,
     published: true,
-    categoryId: '3', // Full-Stack
+    categoryId: '2', // Time Series
     createdAt: '2024-01-01T00:00:00Z',
     updatedAt: '2024-01-01T00:00:00Z',
   },

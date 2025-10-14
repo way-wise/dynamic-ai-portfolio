@@ -30,8 +30,8 @@ export interface Category {
 export const categories: Category[] = [
   {
     id: '1',
-    name: 'Frontend',
-    description: 'User interface and client-side development',
+    name: 'Deep Learning',
+    description: 'Design and integration of Deep Learning models with deployment, monitoring, and maintenance as microservices and cloud services.',
     color: '#3B82F6', // Blue
     icon: '🎨',
     createdAt: '2024-01-01T00:00:00Z',
@@ -39,8 +39,8 @@ export const categories: Category[] = [
   },
   {
     id: '2',
-    name: 'Backend',
-    description: 'Server-side development and APIs',
+    name: 'Time Series Analysis and Forecasting',
+    description: 'Data preprocessing, augmentation, feature engineering, model selection, training, evaluation, deployment and insight dashboard creation for time series data.',
     color: '#10B981', // Green
     icon: '⚙️',
     createdAt: '2024-01-01T00:00:00Z',
@@ -48,8 +48,8 @@ export const categories: Category[] = [
   },
   {
     id: '3',
-    name: 'Full-Stack',
-    description: 'Complete web applications with frontend and backend',
+    name: 'Multi-Modal Learning',
+    description: 'LLMs, VLLMs, and other multi-modal models for various applications including chatbots, content generation, image recognition, and more.',
     color: '#8B5CF6', // Purple
     icon: '🚀',
     createdAt: '2024-01-01T00:00:00Z',
@@ -57,8 +57,8 @@ export const categories: Category[] = [
   },
   {
     id: '4',
-    name: 'Mobile',
-    description: 'Mobile application development',
+    name: 'Knowledge Distillation',
+    description: 'Knowledge distillation techniques to create smaller, faster, and more efficient models without significant loss in performance.',
     color: '#F59E0B', // Orange
     icon: '📱',
     createdAt: '2024-01-01T00:00:00Z',
@@ -66,8 +66,8 @@ export const categories: Category[] = [
   },
   {
     id: '5',
-    name: 'API',
-    description: 'Application Programming Interfaces and integrations',
+    name: 'Reinforcement Learning',
+    description: 'Reinforcement learning algorithms and applications for decision-making, game playing, robotics, industrial automation, personalized recommendations, and many more.',
     color: '#EF4444', // Red
     icon: '🔌',
     createdAt: '2024-01-01T00:00:00Z',
@@ -75,8 +75,8 @@ export const categories: Category[] = [
   },
   {
     id: '6',
-    name: 'No-Code',
-    description: 'Platform-based solutions without traditional coding',
+    name: 'Federated Learning',
+    description: 'Federated learning techniques for training models across decentralized devices or servers while preserving data privacy and security.',
     color: '#06B6D4', // Cyan
     icon: '🛠️',
     createdAt: '2024-01-01T00:00:00Z',
@@ -84,8 +84,8 @@ export const categories: Category[] = [
   },
   {
     id: '7',
-    name: 'AI/ML',
-    description: 'Artificial Intelligence and Machine Learning projects',
+    name: 'Voice Cloning and Lip Sync',
+    description: 'Voice cloning and lip sync technologies for creating realistic voice and facial animations for various applications including virtual assistants, gaming, entertainment, and more.',
     color: '#EC4899', // Pink
     icon: '🤖',
     createdAt: '2024-01-01T00:00:00Z',
@@ -93,8 +93,8 @@ export const categories: Category[] = [
   },
   {
     id: '8',
-    name: 'Blockchain',
-    description: 'Decentralized applications and Web3 projects',
+    name: 'Machine Learning Operations (MLOps)',
+    description: 'MLOps practices for managing the end-to-end machine learning lifecycle including model development, deployment, monitoring, and maintenance.',
     color: '#84CC16', // Lime
     icon: '⛓️',
     createdAt: '2024-01-01T00:00:00Z',
@@ -102,8 +102,8 @@ export const categories: Category[] = [
   },
   {
     id: '9',
-    name: 'DevOps',
-    description: 'Development operations and infrastructure',
+    name: 'Quantum Machine Learning (QML)',
+    description: 'Quantum machine learning algorithms and applications for leveraging quantum computing to enhance machine learning tasks.',
     color: '#6B7280', // Gray
     icon: '🔧',
     createdAt: '2024-01-01T00:00:00Z',
@@ -111,8 +111,8 @@ export const categories: Category[] = [
   },
   {
     id: '10',
-    name: 'Data Science',
-    description: 'Data analysis, visualization, and insights',
+    name: 'Edge AI',
+    description: 'Edge AI techniques for deploying machine learning models on edge devices for real-time inference and decision-making.',
     color: '#8B5CF6', // Purple
     icon: '📊',
     createdAt: '2024-01-01T00:00:00Z',

@@ -5,7 +5,7 @@ import { ExternalLink } from "lucide-react"
 const experiences = [
   {
     period: "2024 — Present",
-    title: "CEO & Founder of Way-Wise Tech",
+    title: "Lead AI/ML Specialist and Co-Founder",
     company: "Way-Wise Tech",
     link: "https://waywisetech.com/",
     description:

@@ -9,6 +9,7 @@ import { AOSProvider } from "@/components/aos-provider"
 import { Suspense } from "react"
 import "./globals.css"
 import "aos/dist/aos.css"
+import { Navigation } from "@/components/navigation"
 
 export const metadata: Metadata = {
   title: "Firoz Bari | Full-Stack Developer & AI/ML Specialist",
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
             <AOSProvider>
+               <Navigation variant="dark" />
               {children}
               <Toaster />
             </AOSProvider>

@@ -106,6 +106,23 @@ export function Hero() {
                 </a>
               </Button>
             </div>
+             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4" data-aos="fade-up" data-aos-delay="500">
+              <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
+                <a href="/about">
+                  Know about me <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
+                <a href="/experience">
+                  Experience
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
+                <a href="/skills">
+                  Skills
+                </a>
+              </Button>
+            </div>
           </div>
 
           {/* Right Column - Image */}
@@ -124,11 +141,15 @@ export function Hero() {
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-purple-600/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-600/50 animate-bounce" style={{animationDelay: '1s'}}>
                 <div className="text-3xl">🧠</div>
               </div>
+              
               <div className="absolute -top-4 -left-4 w-20 h-20 bg-purple-600/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-600/50 animate-bounce" style={{animationDelay: '2s'}}>
                 <div className="text-3xl">🤖</div>
+                
               </div>
             </div>
+            
           </div>
+          
         </div>
       </div>
     </section>

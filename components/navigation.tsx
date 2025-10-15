@@ -4,21 +4,29 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X } from "lucide-react"
 import { useTheme } from "next-themes"
+import Link from "next/link"
+import { usePathname } from 'next/navigation'
 
-export function Navigation() {
+export function Navigation({variant}: {variant?: "dark" | "light"}) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     setMounted(true)
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
     }
+
+    // Run once to set the correct state on initial render / route change
+    handleScroll()
+
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    // Re-run on pathname so the navbar reflects the scroll position when navigating
+  }, [pathname])
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
@@ -35,11 +43,12 @@ export function Navigation() {
   }, [isMobileMenuOpen])
 
   const navItems = [
-    { label: "About", href: "#about" },
-    { label: "Experience", href: "#experience" },
-    { label: "Projects", href: "#projects" },
-    { label: "Skills", href: "#skills" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "about" },
+    { label: "Experience", href: "experience" },
+    { label: "Projects", href: "/#projects" },
+    { label: "Skills", href: "skills" },
+    { label: "Contact", href: "/#contact" },
   ]
 
   return (
@@ -76,7 +85,7 @@ export function Navigation() {
           <div className="flex-1 p-6">
             <nav className="space-y-2">
               {navItems.map((item, index) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
                   className={`block py-4 px-4 text-lg text-gray-300 hover:text-gray-100 hover:bg-accent/10 rounded-lg transition-all duration-200 transform ${
@@ -90,7 +99,7 @@ export function Navigation() {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </nav>
           </div>
@@ -115,7 +124,7 @@ export function Navigation() {
       {/* Main Navigation Bar */}
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-border ${
-          isScrolled ? "bg-[#090b0f]/80 backdrop-blur-md border-b border-border" : "bg-transparent"
+          isScrolled && variant === "dark"? "bg-[#090b0f]/80 backdrop-blur-md border-b border-border" : "bg-transparent"
         }`}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -127,13 +136,13 @@ export function Navigation() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
                   className="text-sm text-gray-300 hover:text-gray-100 transition-colors"
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </div>
 

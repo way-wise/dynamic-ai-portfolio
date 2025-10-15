@@ -12,8 +12,8 @@ import "aos/dist/aos.css"
 import { Navigation } from "@/components/navigation"
 
 export const metadata: Metadata = {
-  title: "Firoz Bari | Full-Stack Developer & AI/ML Specialist",
-  description: "Full-stack developer and AI/ML specialist with 12+ years of experience delivering cutting-edge digital solutions across web, mobile, and AI-driven platforms.",
+  title: "Firoz Bari | Lead AI/ML Specialist and Co-founder",
+  description: "Lead AI/ML specialist with 12+ years of experience delivering cutting-edge digital solutions across web, mobile, and AI-driven platforms.",
   generator: "v0.app",
 }
 

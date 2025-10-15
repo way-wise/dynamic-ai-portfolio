@@ -28,7 +28,7 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
             <AOSProvider>
-               <Navigation variant="dark" />
+               <Navigation />
               {children}
               <Toaster />
             </AOSProvider>

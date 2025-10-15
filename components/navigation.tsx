@@ -7,17 +7,19 @@ import { useTheme } from "next-themes"
 import Link from "next/link"
 import { usePathname } from 'next/navigation'
 
-export function Navigation({variant}: {variant?: "dark" | "light"}) {
+export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
   const pathname = usePathname()
 
+  const isHomePage = pathname === '/';
+
   useEffect(() => {
     setMounted(true)
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
+      setIsScrolled(window.scrollY > 300)
     }
 
     // Run once to set the correct state on initial render / route change
@@ -124,7 +126,11 @@ export function Navigation({variant}: {variant?: "dark" | "light"}) {
       {/* Main Navigation Bar */}
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-border ${
-          isScrolled && variant === "dark"? "bg-[#090b0f]/80 backdrop-blur-md border-b border-border" : "bg-transparent"
+          (isHomePage 
+  ? (isScrolled ? "bg-[#090b0f]/80 backdrop-blur-md border-b border-border" : "bg-transparent") 
+  : "bg-[#090b0f]/80"
+)
+
         }`}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

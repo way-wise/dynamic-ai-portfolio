@@ -374,8 +374,22 @@ export const projects: Project[] = [
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
-   {
+      {
     id: '19',
+    title: 'Multi-Sensory Anomaly Detection for Industrial Equipment',
+    description: 'This project aims to develop a robust predictive maintenance system for industrial machinery by integrating and analyzing multimodal sensor data.',
+    image: '/AI_Portfolio/multi/multi-1.jpg',
+    technologies: 'FLIR thermal cameras, Industrial microphones, NVIDIA Jetson Nano Super, AWS S3, InfluxDB, Prometheus, PyTorch, Docker, Grafana, Transformers, CNNs, RNNs, Fusion Models',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '3', // Multi-Modal Learning
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+   {
+    id: '20',
     title: 'Multilingual LLM Chatbot for Customer Support',
     description: 'Created a real-time multilingual LLM chatbot capable of handling support queries in 15+ languages with sentiment-aware response tuning.',
     image: '/AI_Portfolio/llm/l5.png',
@@ -389,7 +403,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
      {
-    id: '20',
+    id: '21',
     title: 'RAG-Based Enterprise Knowledge Assistant',
     description: 'Built a context-aware RAG assistant to answer internal employee queries by grounding LLM responses in enterprise documents, policies, and knowledge bases.',
     image: '/AI_Portfolio/llm/l4.png',
@@ -403,7 +417,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
       {
-    id: '21',
+    id: '22',
     title: 'LLM-based Content Generation Engine',
     description: 'Engineered a scalable content generation pipeline for SEO blogs, product descriptions, and brand copy using GPT-J and T5 models.',
     image: '/AI_Portfolio/llm/l6.png',
@@ -417,7 +431,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
   {
-    id: '22',
+    id: '23',
     title: 'SmartLegalBot - AI Legal Assistant for Contract Review',
     description: 'SmartLegalBot is an AI-powered assistant that helps users review legal contracts, highlight risky clauses, suggest simplified rewrites, and answer basic legal queries, all using a fine-tuned LLM trained on legal documents.',
     image: '/AI_Portfolio/ai/llm.png',
@@ -431,7 +445,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
     {
-    id: '23',
+    id: '24',
     title: 'Custom LLM Development',
     description: 'Developed a custom large language model from scratch, optimized for enterprise applications. The model was trained on domain-specific data and fine-tuned for various business use cases, achieving state-of-the-art performance while maintaining efficiency.',
     image: '/AI_Portfolio/ai/llm1.png',
@@ -445,7 +459,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
       {
-    id: '24',
+    id: '25',
     title: 'LLM Fine-tuning Framework',
     description: 'Created a comprehensive framework for fine-tuning large language models efficiently. The framework supports various fine-tuning methods, including LoRA, PEFT, and full fine-tuning, with automated optimization and monitoring capabilities.',
     image: '/AI_Portfolio/ai/llm2.png',
@@ -459,7 +473,7 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
       {
-    id: '25',
+    id: '26',
     title: 'Autonomous Research Agent using LLMs',
     description: 'Developed an autonomous LLM agent for literature reviews with semantic paper search, PDF summarization, and research graph generation.',
     image: '/AI_Portfolio/llm/l7.png',
@@ -473,20 +487,6 @@ export const projects: Project[] = [
     updatedAt: '2024-03-25T00:00:00Z',
   },
     {
-    id: '26',
-    title: 'LLM-Powered Code Generation & Review Assistant',
-    description: 'Built an AI coding assistant that generates boilerplate code, reviews PRs, and flags anti-patterns with LLM-powered insights.',
-    image: '/AI_Portfolio/llm/l3.png',
-    technologies: 'Python 3.10, CodeLLaMA, GitHub API, FastAPI, Docker',
-    // github: 'https://github.com/example/wix-website',
-    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
-    featured: false,
-    published: true,
-    categoryId: '3', // Multi-Modal Learning
-    createdAt: '2024-03-25T00:00:00Z',
-    updatedAt: '2024-03-25T00:00:00Z',
-  },
-      {
     id: '27',
     title: 'LLM-Powered Code Generation & Review Assistant',
     description: 'Built an AI coding assistant that generates boilerplate code, reviews PRs, and flags anti-patterns with LLM-powered insights.',
@@ -500,6 +500,7 @@ export const projects: Project[] = [
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
+  
    {
     id: '28',
     title: 'Quantum-Enhanced Financial Risk Modeling',

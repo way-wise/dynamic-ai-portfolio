@@ -560,7 +560,7 @@ export const projects: Project[] = [
     id: '30',
     title: 'LLM-Powered Code Generation & Review Assistant',
     description: 'Built an AI coding assistant that generates boilerplate code, reviews PRs, and flags anti-patterns with LLM-powered insights.',
-    image: '/AI_Portfolio/llm/l3.png',
+    image: '/AI_Portfolio/llm/l9.png',
     technologies: 'Python 3.10, CodeLLaMA, GitHub API, FastAPI, Docker',
     // github: 'https://github.com/example/wix-website',
     // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
@@ -680,6 +680,48 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '10', // Edge AI
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+   {
+    id: '39',
+    title: 'Automated MLOps Pipeline for Predictive Maintenance',
+    description: 'This project focuses on building a fully automated MLOps pipeline for predictive maintenance (PdM) on critical manufacturing equipment such as pumps, motors, CNC machines.',
+    image: '/AI_Portfolio/mlOps/mlops-1.png',
+    technologies: 'Apache Airflow, MLflow, Git, Docker, K8s, Triton Inference Server, Prometheus',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '8', // Machine Learning Operations (MLOps)
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+  {
+    id: '40',
+    title: 'Feature Store for Cross-Plant Quality Control Models',
+    description: 'This project aims to implement a Feature Store to support multiple machine learning models used for real-time quality inspection across different factories or, production lines.',
+    image: '/AI_Portfolio/mlOps/mlops-2.png',
+    technologies: 'WS SageMaker Feature Store, Apache Spark, Redis, Data Lake',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '8', // Machine Learning Operations (MLOps)
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+  {
+    id: '41',
+    title: 'Serverless MLOps for Edge-to-Cloud Logistics Optimization',
+    description: 'This project involves deploying small, high-frequency machine learning models such as models predicting delivery times, optimizing vehicle routing, or forecasting parcel volume across a vast logistics network.',
+    image: '/AI_Portfolio/mlOps/mlops-3.png',
+    technologies: 'Azure Functions, Azure ML, Terraform, MLflow, Azure Storage',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '8', // Machine Learning Operations (MLOps)
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },

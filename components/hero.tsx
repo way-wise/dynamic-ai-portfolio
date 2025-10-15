@@ -122,10 +122,10 @@ export function Hero() {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-purple-600/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-600/50 animate-bounce" style={{animationDelay: '1s'}}>
-                <div className="text-2xl">💻</div>
+                <div className="text-3xl">🧠</div>
               </div>
               <div className="absolute -top-4 -left-4 w-20 h-20 bg-purple-600/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-600/50 animate-bounce" style={{animationDelay: '2s'}}>
-                <div className="text-xl">🚀</div>
+                <div className="text-3xl">🤖</div>
               </div>
             </div>
           </div>

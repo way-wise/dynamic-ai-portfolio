@@ -95,7 +95,7 @@ export function Projects() {
                     <Badge 
                       variant="secondary" 
                       className="text-xs"
-                      style={{ backgroundColor: categoryInfo.color + '20', color: categoryInfo.color }}
+                      style={{ backgroundColor: categoryInfo.color + '70', color: '#FFF' }}
                     >
                       <span className="mr-1">{categoryInfo.icon}</span>
                       {categoryInfo.name}

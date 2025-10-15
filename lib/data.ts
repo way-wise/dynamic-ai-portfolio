@@ -641,6 +641,48 @@ export const projects: Project[] = [
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
+       {
+    id: '36',
+    title: 'Edge AI for Real-time Quality Control in High-Speed Manufacturing',
+    description: 'Implementation a highly efficient, real-time quality inspection system directly on the manufacturing line using Edge AI.',
+    image: '/AI_Portfolio/edgeAI/edgeAI-1.png',
+    technologies: 'NVIDIA Jetson Orin Nano, YOLOv8-Nano, EfficientDet-Lite, MobileNetV3-SSD, Quantization, Pruning, TensorFlow Lite, PyTorch Mobile, NVIDIA TensorRT, OpenCV, Basler, Hikrobot, GigE Vision, Custom PLC, MQTT, Custom Dashboard',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '10', // Edge AI
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+       {
+    id: '37',
+    title: 'Edge AI for Predictive Maintenance of Remote Infrastructure (Oil & Gas, Utilities)',
+    description: 'This project focuses on deploying AI models on low-power edge devices in remote, often harsh, industrial environments such as oil pipelines, wind farms, electrical substations, remote pumping stations.',
+    image: '/AI_Portfolio/edgeAI/edgeAI-2.png',
+    technologies: 'ESP32-S3, Raspberry Pi with Coral TPU, Autoencoders, One-Class SVMs, simple LSTMs, ensorFlow Lite Micro, Edge Impulse, OpenMV, Accelerometers, Temperature Sensors, Pressure Transducers, Acoustic Sensors, LoRaWAN, NB-IoT, cellular (LTE-M, 5G), Custom Solar Panels, Battery Packs',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '10', // Edge AI
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
+    {
+    id: '38',
+    title: 'Edge AI for Worker Safety and Situational Awareness in Construction/Logistics',
+    description: 'This project aims to enhance worker safety by deploying Edge AI-powered cameras in dynamic industrial environments like construction sites, warehouses, or loading docks, continuously monitoring predefined zones and worker locations to detect potential hazards in real-time.',
+    image: '/AI_Portfolio/edgeAI/edgeAI-3.png',
+    technologies: 'Object Detection, Worker Localization & Tracking, Proximity Alerts, PPE (Personal Protective Equipment) Compliance, NVIDIA Jetson Orin Nano Super, YOLO, Faster R-CNN, OpenPose, MediaPipe Pose, PyTorch, TensorFlow, NVIDIA DeepStream SDK, OpenCV, RTSP, MQTT, WiFi/Ethernet',
+    // github: 'https://github.com/example/wix-website',
+    // demo: 'https://business-site.wixsite.com',Multi-Modal Learning
+    featured: false,
+    published: true,
+    categoryId: '10', // Edge AI
+    createdAt: '2024-03-25T00:00:00Z',
+    updatedAt: '2024-03-25T00:00:00Z',
+  },
 ]
 
 // Helper functions to get data

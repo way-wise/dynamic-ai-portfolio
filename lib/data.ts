@@ -12,6 +12,9 @@ export interface Project {
   featured: boolean
   published: boolean
   categoryId: string
+  clientLocation?: string
+  clientType?: string // e.g., "Military", "Enterprise", "Third Party Vendor", "Government", "Startup"
+  projectDuration?: string // e.g., "3 months", "6 months", "1 year"
   createdAt: string
   updatedAt: string
 }
@@ -117,11 +120,46 @@ export const categories: Category[] = [
     icon: '📊',
     createdAt: '2024-01-01T00:00:00Z',
     updatedAt: '2024-01-01T00:00:00Z',
-  }
+  },
+   {
+    id: '11',
+    name: 'Agentic AI',
+    description: 'Agentic AI techniques for creating autonomous systems that can pursue complex goals through dynamic reasoning, tool use, and iterative task execution without constant human intervention.',
+    color: '#8B5CF6', // Purple
+    icon: '🕵🏻‍♂️',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z',
+  },
+     {
+    id: '12',
+    name: '2D to 3D Image Reconstruction',
+    description: '2D to 3D Image Reconstruction techniques for inferring three-dimensional geometry, depth, and structure from two-dimensional images to create immersive 3D models and environments.',
+    color: '#8B5CF6', // Purple
+    icon: '🧊',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z',
+  },
 ]
 
 // Projects data
 export const projects: Project[] = [
+  //     {
+  //   id: '-2',
+  //   title: 'Real-Time AI for Autonomous Defect Detection in Infrastructure (Drone-Integrated)',
+  //   description: 'Develop an end-to-end system where a drone autonomously flies a pre-planned route to inspect large industrial structures such as bridges, wind turbines, or power lines.',
+  //   image: '/AI_Portfolio/dl/dl-5.png',
+  //   technologies: 'YOLOv8-Nano, EfficientDet, DJI SDK, PX4/ArduPilot, Python, NVIDIA TensorRT, MAVLink',
+  //   // github: 'https://github.com/example/ecommerce',
+  //   // demo: 'https://ecommerce-demo.vercel.app',
+  //   featured: false,
+  //   published: true,
+  //   categoryId: '1', // Deep Learning
+  //   clientLocation: 'San Francisco, USA',
+  //   clientType: 'Enterprise',
+  //   projectDuration: '8 months',
+  //   createdAt: '2024-01-15T00:00:00Z',
+  //   updatedAt: '2024-01-15T00:00:00Z',
+  // },
     {
     id: '-1',
     title: 'Real-Time AI for Autonomous Defect Detection in Infrastructure (Drone-Integrated)',
@@ -133,6 +171,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '1', // Deep Learning
+    clientLocation: 'San Francisco, USA',
+    clientType: 'Enterprise',
+    projectDuration: '8 months',
     createdAt: '2024-01-15T00:00:00Z',
     updatedAt: '2024-01-15T00:00:00Z',
   },
@@ -147,6 +188,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '1', // Deep Learning
+    clientLocation: 'London, UK',
+    clientType: 'Third Party Vendor',
+    projectDuration: '6 months',
     createdAt: '2024-01-15T00:00:00Z',
     updatedAt: '2024-01-15T00:00:00Z',
   },
@@ -161,6 +205,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '1', // Deep Learning
+    clientLocation: 'Toronto, Canada',
+    clientType: 'Enterprise',
+    projectDuration: '10 months',
     createdAt: '2024-01-15T00:00:00Z',
     updatedAt: '2024-01-15T00:00:00Z',
   },
@@ -175,6 +222,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '1', // Deep Learning
+    clientLocation: 'Berlin, Germany',
+    clientType: 'Government',
+    projectDuration: '12 months',
     createdAt: '2024-01-15T00:00:00Z',
     updatedAt: '2024-01-15T00:00:00Z',
   },
@@ -189,6 +239,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '1', // Deep Learning
+    clientLocation: 'Sydney, Australia',
+    clientType: 'Enterprise',
+    projectDuration: '5 months',
     createdAt: '2024-01-10T00:00:00Z',
     updatedAt: '2024-01-10T00:00:00Z',
   },
@@ -203,6 +256,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '2', // Time Series
+    clientLocation: 'Singapore',
+    clientType: 'Enterprise',
+    projectDuration: '7 months',
     createdAt: '2024-01-05T00:00:00Z',
     updatedAt: '2024-01-05T00:00:00Z',
   },
@@ -217,6 +273,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '2', // Time Series
+    clientLocation: 'Tokyo, Japan',
+    clientType: 'Enterprise',
+    projectDuration: '9 months',
     createdAt: '2024-01-01T00:00:00Z',
     updatedAt: '2024-01-01T00:00:00Z',
   },
@@ -231,6 +290,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '2', // Time Series
+    clientLocation: 'New York, USA',
+    clientType: 'Startup',
+    projectDuration: '4 months',
     createdAt: '2024-02-01T00:00:00Z',
     updatedAt: '2024-02-01T00:00:00Z',
   },
@@ -245,6 +307,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '2', // Time Series
+    clientLocation: 'Oslo, Norway',
+    clientType: 'Government',
+    projectDuration: '6 months',
     createdAt: '2024-02-05T00:00:00Z',
     updatedAt: '2024-02-05T00:00:00Z',
   },
@@ -259,6 +324,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '4', // 'Knowledge Distillation'
+    clientLocation: 'Seoul, South Korea',
+    clientType: 'Startup',
+    projectDuration: '5 months',
     createdAt: '2024-02-10T00:00:00Z',
     updatedAt: '2024-02-10T00:00:00Z',
   },
@@ -273,6 +341,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '4', // 'Knowledge Distillation'
+    clientLocation: 'Munich, Germany',
+    clientType: 'Enterprise',
+    projectDuration: '11 months',
     createdAt: '2024-02-15T00:00:00Z',
     updatedAt: '2024-02-15T00:00:00Z',
   },
@@ -287,6 +358,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '4', // 'Knowledge Distillation'
+    clientLocation: 'Dubai, UAE',
+    clientType: 'Enterprise',
+    projectDuration: '7 months',
     createdAt: '2024-02-20T00:00:00Z',
     updatedAt: '2024-02-20T00:00:00Z',
   },
@@ -301,6 +375,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '4', // 'Knowledge Distillation'
+    clientLocation: 'Brussels, Belgium',
+    clientType: 'Enterprise',
+    projectDuration: '14 months',
     createdAt: '2024-02-25T00:00:00Z',
     updatedAt: '2024-02-25T00:00:00Z',
   },
@@ -315,6 +392,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '6', // 'Federated Learning'
+    clientLocation: 'Shanghai, China',
+    clientType: 'Third Party Vendor',
+    projectDuration: '10 months',
     createdAt: '2024-03-01T00:00:00Z',
     updatedAt: '2024-03-01T00:00:00Z',
   },
@@ -329,6 +409,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '6', // 'Federated Learning'
+    clientLocation: 'Detroit, USA',
+    clientType: 'Enterprise',
+    projectDuration: '13 months',
     createdAt: '2024-03-05T00:00:00Z',
     updatedAt: '2024-03-05T00:00:00Z',
   },
@@ -343,6 +426,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '6', // 'Federated Learning'
+    clientLocation: 'Stockholm, Sweden',
+    clientType: 'Enterprise',
+    projectDuration: '15 months',
     createdAt: '2024-03-10T00:00:00Z',
     updatedAt: '2024-03-10T00:00:00Z',
   },
@@ -357,6 +443,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '6', // 'Federated Learning'
+    clientLocation: 'Tel Aviv, Israel',
+    clientType: 'Military',
+    projectDuration: '18 months',
     createdAt: '2024-03-15T00:00:00Z',
     updatedAt: '2024-03-15T00:00:00Z',
   },
@@ -371,6 +460,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '5', // Reinforcement Learning
+    clientLocation: 'Amsterdam, Netherlands',
+    clientType: 'Enterprise',
+    projectDuration: '9 months',
     createdAt: '2024-03-20T00:00:00Z',
     updatedAt: '2024-03-20T00:00:00Z',
   },
@@ -385,6 +477,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '5', // Reinforcement Learning
+    clientLocation: 'Houston, USA',
+    clientType: 'Enterprise',
+    projectDuration: '16 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -399,6 +494,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '5', // Reinforcement Learning
+    clientLocation: 'Bangalore, India',
+    clientType: 'Enterprise',
+    projectDuration: '6 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -413,6 +511,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '5', // Reinforcement Learning
+    clientLocation: 'Paris, France',
+    clientType: 'Startup',
+    projectDuration: '8 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -427,6 +528,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Zurich, Switzerland',
+    clientType: 'Enterprise',
+    projectDuration: '10 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -441,6 +545,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Stuttgart, Germany',
+    clientType: 'Enterprise',
+    projectDuration: '12 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -455,6 +562,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Boston, USA',
+    clientType: 'Third Party Vendor',
+    projectDuration: '11 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -469,6 +579,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Dublin, Ireland',
+    clientType: 'Enterprise',
+    projectDuration: '5 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -483,6 +596,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Seattle, USA',
+    clientType: 'Enterprise',
+    projectDuration: '9 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -497,6 +613,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Austin, USA',
+    clientType: 'Startup',
+    projectDuration: '4 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -511,6 +630,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Chicago, USA',
+    clientType: 'Enterprise',
+    projectDuration: '7 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -525,6 +647,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Vancouver, Canada',
+    clientType: 'Enterprise',
+    projectDuration: '20 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -539,6 +664,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Helsinki, Finland',
+    clientType: 'Third Party Vendor',
+    projectDuration: '8 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -553,6 +681,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Copenhagen, Denmark',
+    clientType: 'Enterprise',
+    projectDuration: '6 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -567,6 +698,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '3', // Multi-Modal Learning
+    clientLocation: 'Tel Aviv, Israel',
+    clientType: 'Startup',
+    projectDuration: '5 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -582,6 +716,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '9', // Quantum Machine Learning (QML)
+    clientLocation: 'Zurich, Switzerland',
+    clientType: 'Government',
+    projectDuration: '24 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -596,6 +733,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '9', // Quantum Machine Learning (QML)
+    clientLocation: 'Cambridge, UK',
+    clientType: 'Enterprise',
+    projectDuration: '18 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -610,6 +750,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '7', // Multimedia AI
+    clientLocation: 'Washington DC, USA',
+    clientType: 'Government',
+    projectDuration: '14 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -624,6 +767,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '7', // Multimedia AI
+    clientLocation: 'Frankfurt, Germany',
+    clientType: 'Enterprise',
+    projectDuration: '10 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -638,6 +784,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '7', // Multimedia AI
+    clientLocation: 'Milan, Italy',
+    clientType: 'Enterprise',
+    projectDuration: '13 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -652,6 +801,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '10', // Edge AI
+    clientLocation: 'Shenzhen, China',
+    clientType: 'Enterprise',
+    projectDuration: '8 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -666,6 +818,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '10', // Edge AI
+    clientLocation: 'Abu Dhabi, UAE',
+    clientType: 'Government',
+    projectDuration: '15 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -680,6 +835,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '10', // Edge AI
+    clientLocation: 'Atlanta, USA',
+    clientType: 'Enterprise',
+    projectDuration: '11 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -694,6 +852,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '8', // Machine Learning Operations (MLOps)
+    clientLocation: 'Pittsburgh, USA',
+    clientType: 'Enterprise',
+    projectDuration: '12 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -708,6 +869,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '8', // Machine Learning Operations (MLOps)
+    clientLocation: 'Vienna, Austria',
+    clientType: 'Enterprise',
+    projectDuration: '10 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },
@@ -722,6 +886,9 @@ export const projects: Project[] = [
     featured: false,
     published: true,
     categoryId: '8', // Machine Learning Operations (MLOps)
+    clientLocation: 'Melbourne, Australia',
+    clientType: 'Third Party Vendor',
+    projectDuration: '9 months',
     createdAt: '2024-03-25T00:00:00Z',
     updatedAt: '2024-03-25T00:00:00Z',
   },

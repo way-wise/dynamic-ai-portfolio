@@ -105,6 +105,29 @@ export function Projects() {
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-semibold text-black">{project.title}</h3>
                   <p className="text-gray-700 leading-relaxed line-clamp-3">{project.description}</p>
+                    {
+                      (project.clientLocation || project.clientType || project.projectDuration) && ( 
+                        <div className="space-y-2">
+                          <div className="flex flex-wrap gap-2">
+                            {project.clientLocation && (
+                              <div className="inline-flex items-center gap-2 bg-cyan-100 px-3 py-2 rounded-md border border-l-4 border-cyan-500">
+                                <span className="text-cyan-800 font-medium text-sm">📍 {project.clientLocation}</span>
+                              </div>
+                            )}
+                            {project.clientType && (
+                              <div className="inline-flex items-center gap-2 bg-purple-100 px-3 py-2 rounded-md border border-l-4 border-purple-500">
+                                <span className="text-purple-800 font-medium text-sm">🏢 {project.clientType}</span>
+                              </div>
+                            )}
+                            {project.projectDuration && (
+                              <div className="inline-flex items-center gap-2 bg-green-100 px-3 py-2 rounded-md border border-l-4 border-green-500">
+                                <span className="text-green-800 font-medium text-sm">⏱️ {project.projectDuration}</span>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      )
+                    }
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.split(', ').map((tech, techIndex) => {
                         const colors = [

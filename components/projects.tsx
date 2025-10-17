@@ -104,7 +104,7 @@ export function Projects() {
                 </div>
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-semibold text-black">{project.title}</h3>
-                  <p className="text-gray-700 leading-relaxed line-clamp-3">{project.description}</p>
+                  <p className="text-gray-700 leading-relaxed">{project.description}</p>
                     {
                       (project.clientLocation || project.clientType || project.projectDuration) && ( 
                         <div className="space-y-2">

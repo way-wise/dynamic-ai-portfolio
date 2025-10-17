@@ -173,7 +173,7 @@ export function Hero() {
                 </div>
 
                 <p className="text-lg text-[#1B3447] mb-6 text-center lg:text-left">
-                  With over 12 years of experience leading teams to build scalable, user-focused AI solutions. I specialize in defining the technical strategy and mentoring engineers to turn complex, high-impact challenges into simple, elegant, and efficient products.
+                  I define AI technical strategy and mentor engineers, leveraging over 10 years of experience to turn complex, high-impact challenges into simple, scalable, and efficient user-focused AI products.
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
@@ -199,7 +199,7 @@ export function Hero() {
                 </div>
 
                 <p className="text-lg text-black mb-6 text-center lg:text-left">
-                  With 12+ years of experience focused on building and scaling end-to-end AI/ML systems, I bring a deep, diverse skillset that drives impactful digital solutions. I am expert at translating complex models into robust, high-performance production features.
+                  With over 10 years of experience building and scaling end-to-end AI/ML systems, I translate complex models into robust, high-performance production features that deliver impactful digital solutions.
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">

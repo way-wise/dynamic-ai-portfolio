@@ -21,8 +21,7 @@ export function Hero() {
       }}
     >
       {/* Elegant Background Shapes */}
-      <div className="absolute inset-0 z-10">
-        {/* Large floating circles */}
+      {/* <div className="absolute inset-0 z-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse"></div>
         <div
           className="absolute top-40 right-20 w-96 h-96 bg-gradient-to-r from-purple-500/30 to-pink-500/30 rounded-full blur-3xl animate-pulse"
@@ -37,7 +36,6 @@ export function Hero() {
           style={{ animationDelay: "1.5s" }}
         ></div>
 
-        {/* Geometric shapes */}
         <div
           className="absolute top-32 right-1/3 w-4 h-4 bg-blue-400/30 rotate-45 animate-bounce"
           style={{ animationDelay: "0.5s" }}
@@ -51,13 +49,12 @@ export function Hero() {
           style={{ animationDelay: "2.5s" }}
         ></div>
 
-        {/* Floating lines */}
         <div className="absolute top-1/4 left-1/2 w-px h-32 bg-gradient-to-b from-transparent via-blue-400/20 to-transparent animate-pulse"></div>
         <div
           className="absolute bottom-1/3 right-1/4 w-24 h-px bg-gradient-to-r from-transparent via-purple-400/20 to-transparent animate-pulse"
           style={{ animationDelay: "1s" }}
         ></div>
-      </div>
+      </div> */}
 
       <div className="container mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

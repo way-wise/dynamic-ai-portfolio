@@ -129,7 +129,7 @@ export function Navigation() {
                   <LinkComponent
                     key={item.href}
                     {...linkProps}
-                    className="text-2xl font-medium text-gray-50 hover:text-gray-100 transition-colors"
+                    className="lg:text-2xl text-xl font-medium text-gray-50 hover:text-gray-100 transition-colors"
                   >
                     {item.label}
                   </LinkComponent>

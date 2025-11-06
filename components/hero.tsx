@@ -134,7 +134,7 @@ export function Hero() {
             data-aos-delay="400"
           >
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-300 to-purple-200 rounded-full blur-3xl scale-110 animate-pulse"></div>
+              {/* <div className="absolute inset-0 bg-gradient-to-r from-purple-300 to-purple-200 rounded-full blur-3xl scale-110 animate-pulse"></div> */}
               <div className="relative w-60 h-60 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-purple-500 shadow-2xl">
                 <Image
                   src="/firoz_bari.svg"
@@ -185,7 +185,7 @@ export function Hero() {
               </div>
             </div>
           </div>
-          <div className="pt-8 flex justify-center" data-aos="fade-up" data-aos-delay="700">
+          <div className="pt-8 flex lg:justify-end" data-aos="fade-up" data-aos-delay="700">
             <div className="relative p-6 rounded-2xl bg-[#FFCA0B] max-w-[555px]">
               <div className="relative">
                 <div className="flex items-center gap-2 mb-4">
